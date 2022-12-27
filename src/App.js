@@ -12,14 +12,14 @@ function App() {
     <Router>
       <Navbar className="top" expand = "lg" bg-abwhite>
       <Container>
-        <Navbar.Brand href="/trial">
+        <Navbar.Brand href="/">
             <img className = "app-logo" src = {companyLogo} alt = " Sweet Batter Bakes"  />
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className = "dropDown">
           <Nav className="me-auto justify-content-between w-25 ">
-            <Nav.Link href="/trial" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
+            <Nav.Link href="/" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
             <Nav.Link href="/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
            
             <Nav.Link href="/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
@@ -36,7 +36,7 @@ function App() {
       </Navbar>
       <Routes>
 
-        <Route exact path = "/trial" element = {<Home />}/>
+        <Route exact path = "/" element = {<Home />}/>
         <Route path = "/about" element = {<AboutUs />}/>
         <Route path = "/contact" element = {<ContactUs />}/>
         <Route path = "/products" element = {<Products />}/>
