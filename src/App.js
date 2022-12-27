@@ -4,12 +4,12 @@ import Home from "./pages/home/Home.js";
 import Products from "./pages/products/Products";
 import './App.css';
 import {Container, Navbar, Nav} from "react-bootstrap"
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import companyLogo from "/Users/zainab/Desktop/trial/src/images/sbb_sqlogoclear.png";
 import { BsInstagram } from "react-icons/bs";
 function App() {
   return (
-    <Router>
+    <Router basename ="/trial">
       <Navbar className="top" expand = "lg" bg-abwhite>
       <Container>
         <Navbar.Brand href="/">
@@ -19,11 +19,11 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className = "dropDown">
           <Nav className="me-auto justify-content-between w-25 ">
-            <Nav.Link href="/" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
-            <Nav.Link href="/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
+            <Nav.Link href="https://sweetbatterbakes.github.io/trial/" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
+            <Nav.Link href="https://sweetbatterbakes.github.io/trial/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
            
-            <Nav.Link href="/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
-            <Nav.Link href="/products" className = "nav-item" class = "nav-item nav-link " >PRODUCTS</Nav.Link>
+            <Nav.Link href="https://sweetbatterbakes.github.io/trial/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
+            <Nav.Link href="https://sweetbatterbakes.github.io/trial/products" className = "nav-item" class = "nav-item nav-link " >PRODUCTS</Nav.Link>
           
           </Nav>
         </Navbar.Collapse>
