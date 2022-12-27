@@ -9,7 +9,7 @@ import companyLogo from "/Users/zainab/Desktop/trial/src/images/sbb_sqlogoclear.
 import { BsInstagram } from "react-icons/bs";
 function App() {
   return (
-    <Router basename ="/trial">
+    <Router>
       <Navbar className="top" expand = "lg" bg-abwhite>
       <Container>
         <Navbar.Brand href="/">
@@ -36,10 +36,10 @@ function App() {
       </Navbar>
       <Routes>
 
-        <Route exact path = "/" element = {<Home />}/>
-        <Route path = "/about" element = {<AboutUs />}/>
-        <Route path = "/contact" element = {<ContactUs />}/>
-        <Route path = "/products" element = {<Products />}/>
+        <Route exact path = "/trial" element = {<Home />}/>
+        <Route path = "/trial/about" element = {<AboutUs />}/>
+        <Route path = "/trial/contact" element = {<ContactUs />}/>
+        <Route path = "/tiral/products" element = {<Products />}/>
         
        
         
