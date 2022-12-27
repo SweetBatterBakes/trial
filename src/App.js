@@ -36,10 +36,10 @@ function App() {
       </Navbar>
       <Routes>
 
-        <Route exact path = "/trial" element = {<Home />}/>
-        <Route path = "/trial/about" element = {<AboutUs />}/>
-        <Route path = "/trial/contact" element = {<ContactUs />}/>
-        <Route path = "/tiral/products" element = {<Products />}/>
+        <Route exact path = {process.env.PUBLIC_URL + '/'} element = {<Home />}/>
+        <Route path = {process.env.PUBLIC_URL + '/about'} element = {<AboutUs />}/>
+        <Route path = {process.env.PUBLIC_URL + '/contact'} element = {<ContactUs />}/>
+        <Route path = {process.env.PUBLIC_URL + '/products'} element = {<Products />}/>
         
        
         
