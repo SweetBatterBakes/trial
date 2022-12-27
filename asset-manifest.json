@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/trial/static/css/main.e673712d.css",
+    "main.js": "/trial/static/js/main.e8cf5595.js",
+    "static/js/787.49616aef.chunk.js": "/trial/static/js/787.49616aef.chunk.js",
+    "static/media/SBB.gif": "/trial/static/media/SBB.b3c3da1ddc32a510519d.gif",
+    "static/media/homeCollage2.png": "/trial/static/media/homeCollage2.d365a7ce8c609236d08f.png",
+    "static/media/Insta6.png": "/trial/static/media/Insta6.03b09cd1d19221b3657a.png",
+    "static/media/insta2.png": "/trial/static/media/insta2.61d3f0bee020ff21dd51.png",
+    "static/media/insta1.png": "/trial/static/media/insta1.e05b1091fa6a05289de0.png",
+    "static/media/banana_bread.png": "/trial/static/media/banana_bread.79c4c42acadbe82d74dd.png",
+    "static/media/rollcake.png": "/trial/static/media/rollcake.5372e2aa00b8a1461b0e.png",
+    "static/media/Insta4.png": "/trial/static/media/Insta4.f9a52cd798beed109cd6.png",
+    "static/media/Insta7.png": "/trial/static/media/Insta7.1313d4ff412bc76a0548.png",
+    "static/media/cupcake.png": "/trial/static/media/cupcake.970cc3230feae35084fc.png",
+    "static/media/turnovers.png": "/trial/static/media/turnovers.7c4fb919ddeb5d76628e.png",
+    "static/media/Insta5.png": "/trial/static/media/Insta5.54cde04bbc4a9645e6bf.png",
+    "static/media/insta3.png": "/trial/static/media/insta3.260231d3bddc9b413493.png",
+    "static/media/stuffed_c.png": "/trial/static/media/stuffed_c.a1caa13b6dc39b71bc14.png",
+    "static/media/classic_cookie.png": "/trial/static/media/classic_cookie.c7452d9e9641cfc5a0da.png",
+    "static/media/donuts.png": "/trial/static/media/donuts.7e41239f4e9703d56ce0.png",
+    "static/media/Insta9.png": "/trial/static/media/Insta9.1c13fe3982e38ee56875.png",
+    "static/media/Insta8.png": "/trial/static/media/Insta8.c0c91b1d40c5ec863382.png",
+    "static/media/brownies.png": "/trial/static/media/brownies.480263013674f980166c.png",
+    "static/media/Insta10.png": "/trial/static/media/Insta10.0efee2b94574e824181c.png",
+    "static/media/madeline.png": "/trial/static/media/madeline.38fbcf531fa34bebc66c.png",
+    "static/media/sbb_sqlogoclear.png": "/trial/static/media/sbb_sqlogoclear.d589e32069bc44d4d429.png",
+    "static/media/InstagramLogo.png": "/trial/static/media/InstagramLogo.7ede2247b3287dee90a4.png",
+    "static/media/SBB_title2.png": "/trial/static/media/SBB_title2.f00678eb33f37afef718.png",
+    "static/media/cake.png": "/trial/static/media/cake.fce72824b7f757f02cd8.png",
+    "static/media/donut.png": "/trial/static/media/donut.ce261cfca36ceb466895.png",
+    "index.html": "/trial/index.html",
+    "main.e673712d.css.map": "/trial/static/css/main.e673712d.css.map",
+    "main.e8cf5595.js.map": "/trial/static/js/main.e8cf5595.js.map",
+    "787.49616aef.chunk.js.map": "/trial/static/js/787.49616aef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e673712d.css",
+    "static/js/main.e8cf5595.js"
+  ]
+}
