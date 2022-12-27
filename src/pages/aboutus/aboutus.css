@@ -1,0 +1,54 @@
+.About_Us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7ed
+
+}
+@media (max-width: 850px) {
+    .About_Us {
+        flex-direction: column;   
+    }
+    
+}
+
+.our_story{
+    flex: 6;
+    padding-top: 5%;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+}
+
+.vid_arch{
+    flex: 4;  
+}
+
+.gif{
+    
+    height: 80vh;
+    width: 80%;
+    border-radius: 300px 300px 0 0;
+}
+
+@media (max-width: 850px) {
+    .gif {
+        height: 100%;
+        width: 40vh;
+        border-radius: 0;
+    }
+    
+}
+
+
+.header{
+    font-family:  'DM Sans', sans-serif;
+}
+
+.blurb{
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 5vh;
+    line-height: 2;
+}

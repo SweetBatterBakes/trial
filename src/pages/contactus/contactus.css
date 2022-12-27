@@ -1,0 +1,21 @@
+.form-control{
+    background-color: #eed7df !important;
+    border-style : hidden!important;
+    color: #4c2821 !important
+
+}
+
+.contactUs{
+    
+    margin-top: 10vh;
+    font-family:  'DM Sans', sans-serif;;
+   
+    
+}
+
+
+.btn1{
+    background-color: #eed7df!important;
+    border-style : hidden!important;
+    border-radius: 10% !important;
+}

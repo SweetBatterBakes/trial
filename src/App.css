@@ -1,0 +1,28 @@
+top{
+  height: 10vh;
+  background-color: #eed7df;
+  /* background-color: #f9e3c9; */
+  font-family:  'DM Sans', sans-serif;;
+  color: #4c2821;
+  font-size: 1.5vh;
+
+  /* font-family: "TT Norms Regular"; */
+
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+
+.link{
+  color: #4c2821;
+ 
+}
+
+
+.app-logo{
+  height: 7vh;
+  /* border-radius: 50%; */
+}
+
+
+
