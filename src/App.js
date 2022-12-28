@@ -9,7 +9,7 @@ import companyLogo from "/Users/zainab/Desktop/trial/src/images/sbb_sqlogoclear.
 import { BsInstagram } from "react-icons/bs";
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <Navbar className="top" expand = "lg" bg-abwhite>
       <Container>
         <Navbar.Brand href="/">
@@ -19,11 +19,11 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className = "dropDown">
           <Nav className="me-auto justify-content-between w-25 ">
-            <Nav.Link href="https://sweetbatterbakes.github.io/trial/" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
-            <Nav.Link href="https://sweetbatterbakes.github.io/trial/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
+            <Nav.Link href="/" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
+            <Nav.Link href="/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
            
-            <Nav.Link href="https://sweetbatterbakes.github.io/trial/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
-            <Nav.Link href="https://sweetbatterbakes.github.io/trial/products" className = "nav-item" class = "nav-item nav-link " >PRODUCTS</Nav.Link>
+            <Nav.Link href="/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
+            <Nav.Link href="/products" className = "nav-item" class = "nav-item nav-link " >PRODUCTS</Nav.Link>
           
           </Nav>
         </Navbar.Collapse>
@@ -36,16 +36,16 @@ function App() {
       </Navbar>
       <Routes>
 
-        <Route exact path = {process.env.PUBLIC_URL + '/'} element = {<Home />}/>
-        <Route path = {process.env.PUBLIC_URL + '/about'} element = {<AboutUs />}/>
-        <Route path = {process.env.PUBLIC_URL + '/contact'} element = {<ContactUs />}/>
-        <Route path = {process.env.PUBLIC_URL + '/products'} element = {<Products />}/>
+        <Route exact path = "/" element = {<Home />}/>
+        <Route path = "/about" element = {<AboutUs />}/>
+        <Route path = "/contact" element = {<ContactUs />}/>
+        <Route path = "/products" element = {<Products />}/>
         
        
         
       </Routes>
       
-    </HashRouter>
+    </Router>
   );
 }
 
