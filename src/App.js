@@ -4,7 +4,7 @@ import Home from "./pages/home/Home.js";
 import Products from "./pages/products/Products";
 import './App.css';
 import {Container, Navbar, Nav} from "react-bootstrap"
-import {HashRouter, Routes, Route} from "react-router-dom";
+import {Router, Routes, Route} from "react-router-dom";
 import companyLogo from "/Users/zainab/Desktop/trial/src/images/sbb_sqlogoclear.png";
 import { BsInstagram } from "react-icons/bs";
 function App() {
