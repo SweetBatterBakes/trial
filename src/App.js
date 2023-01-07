@@ -21,9 +21,9 @@ function App() {
         <Navbar.Collapse id="basic-navbar-nav" className = "dropDown">
           <Nav className="me-auto justify-content-between w-25 ">
             <Nav.Link href="/trial/" className = "nav-item" class = "nav-item nav-link ">HOME</Nav.Link>
-            <Nav.Link href="/trial/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
-            <Nav.Link href="/trial/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
-            <Nav.Link href="/trial/products" className = "nav-item" class = "nav-item nav-link " >PRODUCTS</Nav.Link>
+            <Nav.Link href="/trial/#/about" className = "nav-item" class = "nav-item nav-link " >ABOUT </Nav.Link>
+            <Nav.Link href="/trial/#/contact"  className = "nav-item" class = "nav-item nav-link" >CONTACT</Nav.Link>
+            <Nav.Link href="/trial/#/products" className = "nav-item" class = "nav-item nav-link " >PRODUCTS</Nav.Link>
           
           </Nav>
         </Navbar.Collapse>
