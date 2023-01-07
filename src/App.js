@@ -4,13 +4,13 @@ import Home from "./pages/home/Home.js";
 import Products from "./pages/products/Products";
 import './App.css';
 import {Container, Navbar, Nav} from "react-bootstrap"
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 import companyLogo from "/Users/zainab/Desktop/trial/src/images/sbb_sqlogoclear.png";
 import { BsInstagram } from "react-icons/bs";
 function App() {
   return (
   
-    <BrowserRouter basename = "/trial">
+    <HashRouter basename = "/trial">
       <Navbar className="top" expand = "lg" bg-abwhite>
       <Container>
         <Navbar.Brand href="/trial/">
@@ -45,7 +45,7 @@ function App() {
         
       </Routes>
       
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
